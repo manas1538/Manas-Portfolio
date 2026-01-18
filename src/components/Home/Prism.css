@@ -1,0 +1,9 @@
+.prism-container {
+  position: fixed; /* Or absolute, depending on layout */
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1; /* Behind other content */
+  pointer-events: none; /* Allow interaction with foreground */
+}
